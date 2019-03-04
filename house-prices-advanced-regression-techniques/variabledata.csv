@@ -1,0 +1,81 @@
+﻿Variable Name,"Variable Type (Quantitative, Categorical, Ordinal)",Definition
+MSSubClass,Categorical,MSSubClass: The building class
+MSZoning,Quantitative,MSZoning: The general zoning classification
+LotFrontage,Quantitative,LotFrontage: Linear feet of street connected to property
+LotArea,Categorical,LotArea: Lot size in square feet
+Street,Categorical,Street: Type of road access
+Alley,Categorical,Alley: Type of alley access
+LotShape,Categorical,LotShape: General shape of property
+LandContour,Categorical,LandContour: Flatness of the property
+Utilities,Categorical,Utilities: Type of utilities available
+LotConfig,Ordinal,LotConfig: Lot configuration
+LandSlope,Categorical,LandSlope: Slope of property
+Neighborhood,Categorical,Neighborhood: Physical locations within Ames city limits
+Condition1,Categorical,Condition1: Proximity to main road or railroad
+Condition2,Categorical,Condition2: Proximity to main road or railroad (if a second is present)
+BldgType,Categorical,BldgType: Type of dwelling
+HouseStyle,Ordinal,HouseStyle: Style of dwelling
+OverallQual,Ordinal,OverallQual: Overall material and finish quality
+OverallCond,Ordinal,OverallCond: Overall condition rating
+YearBuilt,Ordinal,YearBuilt: Original construction date
+YearRemodAdd,Categorical,YearRemodAdd: Remodel date
+RoofStyle,Categorical,RoofStyle: Type of roof
+RoofMatl,Categorical,RoofMatl: Roof material
+Exterior1st,Categorical,Exterior1st: Exterior covering on house
+Exterior2nd,Categorical,Exterior2nd: Exterior covering on house (if more than one material)
+MasVnrType,Quantitative,MasVnrType: Masonry veneer type
+MasVnrArea,Ordinal,MasVnrArea: Masonry veneer area in square feet
+ExterQual,Ordinal,ExterQual: Exterior material quality
+ExterCond,Ordinal,ExterCond: Present condition of the material on the exterior
+Foundation,Categorical,Foundation: Type of foundation
+BsmtQual,Ordinal,BsmtQual: Height of the basement
+BsmtCond,Ordinal,BsmtCond: General condition of the basement
+BsmtExposure,Categorical,BsmtExposure: Walkout or garden level basement walls
+BsmtFinType1,Ordinal,BsmtFinType1: Quality of basement finished area
+BsmtFinSF1,Quantitative,BsmtFinSF1: Type 1 finished square feet
+BsmtFinType2,Ordinal,BsmtFinType2: Quality of second finished area (if present)
+BsmtFinSF2,Quantitative,BsmtFinSF2: Type 2 finished square feet
+BsmtUnfSF,Quantitative,BsmtUnfSF: Unfinished square feet of basement area
+TotalBsmtSF,Quantitative,TotalBsmtSF: Total square feet of basement area
+Heating,Categorical,Heating: Type of heating
+HeatingQC,Ordinal,HeatingQC: Heating quality and condition
+CentralAir,Categorical,CentralAir: Central air conditioning
+Electrical,Categorical,Electrical: Electrical system
+1stFlrSF,Quantitative,1stFlrSF: First Floor square feet
+2ndFlrSF,Quantitative,2ndFlrSF: Second floor square feet
+LowQualFinSF,Quantitative,LowQualFinSF: Low quality finished square feet (all floors)
+GrLivArea,Quantitative,GrLivArea: Above grade (ground) living area square feet
+BsmtFullBath,Quantitative,BsmtFullBath: Basement full bathrooms
+BsmtHalfBath,Quantitative,BsmtHalfBath: Basement half bathrooms
+FullBath,Quantitative,FullBath: Full bathrooms above grade
+HalfBath,Quantitative,HalfBath: Half baths above grade
+BedroomAbvGr,Quantitative,Bedroom: Number of bedrooms above basement level
+KitchenAbvGr,Quantitative,Kitchen: Number of kitchens
+KitchenQual,Ordinal,KitchenQual: Kitchen quality
+TotRmsAbvGrd,Quantitative,TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
+Functional,Ordinal,Functional: Home functionality rating
+Fireplaces,Quantitative,Fireplaces: Number of fireplaces
+FireplaceQu,Ordinal,FireplaceQu: Fireplace quality
+GarageType,Categorical,GarageType: Garage location
+GarageYrBlt,Quantitative,GarageYrBlt: Year garage was built
+GarageFinish,Categorical,GarageFinish: Interior finish of the garage
+GarageCars,Quantitative,GarageCars: Size of garage in car capacity
+GarageArea,Quantitative,GarageArea: Size of garage in square feet
+GarageQual,Ordinal,GarageQual: Garage quality
+GarageCond,Ordinal,GarageCond: Garage condition
+PavedDrive,Categorical,PavedDrive: Paved driveway
+WoodDeckSF,Quantitative,WoodDeckSF: Wood deck area in square feet
+OpenPorchSF,Quantitative,OpenPorchSF: Open porch area in square feet
+EnclosedPorch,Quantitative,EnclosedPorch: Enclosed porch area in square feet
+3SsnPorch,Quantitative,3SsnPorch: Three season porch area in square feet
+ScreenPorch,Quantitative,ScreenPorch: Screen porch area in square feet
+PoolArea,Quantitative,PoolArea: Pool area in square feet
+PoolQC,Ordinal,PoolQC: Pool quality
+Fence,Categorical,Fence: Fence quality
+MiscFeature,Categorical,MiscFeature: Miscellaneous feature not covered in other categories
+MiscVal,Quantitative,MiscVal: $Value of miscellaneous feature
+MoSold,Quantitative,MoSold: Month Sold
+YrSold,Quantitative,YrSold: Year Sold
+SaleType,Categorical,SaleType: Type of sale
+SaleCondition,Categorical,SaleCondition: Condition of sale
+SalePrice,Quantitative,SalePrice - the property's sale price in dollars. This is the target variable that you're trying to predict.

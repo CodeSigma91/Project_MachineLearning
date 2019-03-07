@@ -22,10 +22,10 @@ This repository holds our work notebooks(code) and files. Here is a brief workfl
   D) The "3. Feature Reduced data set" notebook holds similar code to the imputation notebook, but instead it outputs .csv files of the 
   reduced data sets into the "data" folder as well.
 
-  E) Finally, the remaining notebooks carry out basic modeling done on the final, prepared data sets from the "data" folder, and outputs 
-  formatted csv(s) for submission into the kaggle.com competition to the "kaggle_submissions" folder.
+  E) Finally, the remaining notebooks (#4 and #5) carry out regression modeling done on the final, prepared data sets from the "data"
+  folder, and outputs formatted csv(s) for submission into the kaggle.com competition to the "kaggle_submissions" folder.
   
-  Our groups presentation on our efforts can be found in the following link:
+  Our group's presentation on our efforts can be found in the following link:
   <https://docs.google.com/presentation/d/1WkYu03gJjzGtiChRyQkntf2fqkcEbRGYk1MqyaaalYw/edit?usp=sharing>
   
   

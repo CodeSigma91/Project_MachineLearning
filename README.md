@@ -1,4 +1,5 @@
 # Project_MachineLearning
+- - -
 ## Advanced Regression Techniques on Housing in Ames, IA
 
 _**This project revolves around the kaggle.com competition on Advanced Regression Techniques, found [here](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/). The project goal was to develop and test regression models designed to predict home sale prices, based on a large number of descriptive features. A brief blogpost can be found [here](https://nycdatascience.com/blog/student-works/machine-learning-project/) and Our group's presentation on our efforts can be found [here](https://docs.google.com/presentation/d/1WkYu03gJjzGtiChRyQkntf2fqkcEbRGYk1MqyaaalYw/edit?usp=sharing).**_
